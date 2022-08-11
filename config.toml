@@ -1,0 +1,100 @@
+baseURL = "https://sebbruchmann.github.io/"
+languageCode = "en"
+title = "Sebastian Bruchmann"
+theme = "hugo-initio"
+
+[params]
+    name = "Dr. Sebastian Bruchmann"
+    description = "Senior Research Associate - University of Cambridge"
+    email = "shgb2@cam.ac.uk"
+    address = "Department of Veterinary Medicine, Madingley Road, Cambridge CB3 0ES"
+    year = 2022
+    avatar = "images/guy.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/bg_head.jpg"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+    author = "Sergey Pozhilov (GetTemplate.com)"
+
+    showSubheader = true
+    showServices = false
+    showRecentWorks = true
+    showDownloads = false
+    showClients = false
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Research Interests"
+    url = "/content/interest/"
+    weight = 2
+[[menu.main]]
+    name = "CV"
+    url = "/content/cv/"
+    weight = 3
+[[menu.main]]
+    name = "Publications"
+    url = "/content/publications/"
+    weight = 4
+[[menu.main]]
+    name = "Posts"
+    url = "/content/posts/"
+    weight = 5
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/Doktor_Basti"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/sebbruchmann/"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+#[[params.social]]
+#	title = "orcid"
+#	url = "https://orcid.org/0000-0001-8721-5386"
+#   icon = "fab fa-orcid"
+#   footer = true
+#   sharethis = true
+#   network = "orcid"
+[[params.social]]
+	title = "google-scholar"
+	url = "https://scholar.google.com/citations?user=nHWAatUAAAAJ&hl=en"
+    icon = "fab fa-google"
+    footer = true
+    sharethis = true
+    network = "google"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/sebbruchmann"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = true
+    network = "github"
+[[params.social]]
+	title = "email"
+	url = "mailto:shgb2@cam.ac.uk"
+    icon = "fas fa-envelope-square"
+    footer = true
+    sharethis = true
+    network = "email"
